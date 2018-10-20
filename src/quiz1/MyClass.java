@@ -9,27 +9,26 @@ package quiz1;
  *
  * @author corne
  */
-public class MyClass 
-{
-    
+public class MyClass {
+
 }
-class Parent
-{
-    public String printName()
-    {
+
+class Parent {
+
+    public String printName() {
         System.out.println("Parent");
         return "Parent";
     }
 }
-class Child extends Parent
-{
-    public String printName()
-    {
+
+class Child extends Parent {
+
+    public String printName() {
         System.out.println("Child");
         return "Child";
     }
-    public String parentName()
-    {
+
+    public String parentName() {
         return super.printName();
     }
 }
