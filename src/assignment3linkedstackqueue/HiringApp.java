@@ -14,11 +14,11 @@ import java.util.*;
  */
 public class HiringApp {
 
-    Queue<Person> applicants = new LinkedList<Person>();
-    Stack<Person> employees = new Stack();
-    Stack<Person> fired = new Stack();
-    String[] choices = {"Accept application", "Hire", "Fire", "Quit"};
-    JOptionPane pane = new JOptionPane();
+    private Queue<Person> applicants = new LinkedList<Person>();
+    private Stack<Person> employees = new Stack();
+    private Stack<Person> fired = new Stack();
+    private String[] choices = {"Accept application", "Hire", "Fire", "Quit"};
+    private JOptionPane pane = new JOptionPane();
 
     private void message(String s) {
         pane.showMessageDialog(null, s);
